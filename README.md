@@ -3,6 +3,9 @@
 ## ⚙️ API Documentation
 https://www.postman.com/material-cosmonaut-74738736/workspace/url-shortener/collection/22451140-22d2749b-c834-40c5-bbdd-869ff2a3aeff?action=share&creator=22451140
 
+## ⚙️ API Host Link
+https://url-shortener-api-14re.onrender.com
+
 
 This API is used to shorten URL's .
 It is built using NodeJs, ExpressJs, MongoDB and JavaScript.
