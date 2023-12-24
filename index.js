@@ -23,7 +23,6 @@ app.use(bodyParser.json());
 
 
 
-
 // Use routes
 app.use('/auth', authRoutes);
 app.use('/', shortenRoutes);
@@ -31,7 +30,7 @@ app.use('/', shortenRoutes);
 
 
 
-
+// Run Server
 app.listen(port, function (err) {
   if (err) {
     console.log(`Error in running the server: ${err}`);

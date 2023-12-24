@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
-const url = 'mongodb://0.0.0.0:27017/URL-Shortener';
+const url = 'mongodb+srv://fk:hrxx8KXKbckrQXvm@cluster0.s3dclm0.mongodb.net/URL-Shortener';
 // mongoose.connect('url') 
 mongoose.connect(url);
 const db=mongoose.connection;
