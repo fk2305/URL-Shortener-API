@@ -7,8 +7,6 @@ It is built using NodeJs, ExpressJs, MongoDB and JavaScript.
 
 ## ⚙️ Functionality
 
-### Admin's functions
-
 - User Registration
 - User Login
 - URL Shortener
