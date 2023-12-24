@@ -17,9 +17,11 @@ It is built using NodeJs, ExpressJs, MongoDB and JavaScript.
 - Clone the forked repository in your local system
 - In root directory index.js file you can edit the following:-
   - PORT="Your port number"
-  - MONGODB_URL="Your MongoDB URL"
   - SESSION_SECRET_KEY="Your secret session key"
 - Install all required packages
+
+- In config directory mongoose.js file you can edit the following:-
+- MONGODB_URL="Your MongoDB URL"
 
 ```bash
 npm install
