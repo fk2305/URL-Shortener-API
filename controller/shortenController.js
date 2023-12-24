@@ -29,7 +29,7 @@ const shortenUrl = async (req, res) => {
 const redirectToOriginal = async (req, res) => {
   try {
     const { shortUrl } = req.params;
-    console.log(shortUrl);
+   
 
     // Find the original URL in the database
     const urlMapping = await ShortUrl.findOne({ shortId : shortUrl });
